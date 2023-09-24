@@ -18,4 +18,4 @@ WORKDIR /workspaces/cms_1st/
 
 EXPOSE 8888
 
-CMD ["npm", "run", "dev"]
+CMD ["npm", "config", "set", "registry", "https://registry.npmmirror.com"]

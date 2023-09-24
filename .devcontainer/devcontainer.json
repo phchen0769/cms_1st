@@ -39,7 +39,8 @@
 				"xabikos.JavaScriptSnippets",
 				"ms-vscode.vscode-typescript-next",
 				"ZainChen.json",
-				"Vue.vscode-typescript-vue-plugin"
+				"Vue.vscode-typescript-vue-plugin",
+				"dbaeumer.vscode-eslint"
 			]
 		}
 	},
