@@ -8,10 +8,9 @@
             "type": "node",
             "request": "launch",
             "name": "Launch Program",
-            "program": "${workspaceFolder}/server.js",
+            "program": "${workspaceFolder}/server.js"
             // "args": ["cnpm", "run", "dev"]
             // "program": "cnpm run dev",
-
         }
     ]
 }

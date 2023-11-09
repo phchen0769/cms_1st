@@ -1,4 +1,3 @@
-
 // For format details, see https://aka.ms/devcontainer.json. For config options, see the
 // README at: https://github.com/devcontainers/templates/tree/main/src/javascript-node
 {
@@ -22,33 +21,42 @@
 	"customizations": {
 		// Configure properties specific to VS Code.
 		"vscode": {
-			"settings": {
-				"workbench.colorTheme": "Vue Theme",
-				"editor.fontSize": 18
-			},
+			// "settings": {
+			// 	"workbench.colorTheme": "Vue Theme",
+			// 	"editor.fontSize": 18
+			// },
 			"extensions": [
+				"tombonnike.vscode-status-bar-format-toggle",
+				"VisualStudioExptTeam.vscodeintellicode",
+				"VisualStudioExptTeam.intellicode-api-usage-examples",
 				"Vue.volar",
 				"sdras.vue-vscode-snippets",
 				"dariofuzinato.vue-peek",
 				"mariorodeghiero.vue-theme",
-				"esbenp.prettier-vscode",
 				"kisstkondoros.vscode-gutter-preview",
-				"VisualStudioExptTeam.vscodeintellicode",
-				"christian-kohler.path-intellisense",
 				"jock.svg",
 				"xabikos.JavaScriptSnippets",
 				"ms-vscode.vscode-typescript-next",
-				"ZainChen.json",
+				"mike-co.import-sorter",
+				"steoates.autoimport",
 				"Vue.vscode-typescript-vue-plugin",
-				"dbaeumer.vscode-eslint"
+				"esbenp.prettier-vscode",
+				"dbaeumer.vscode-eslint",
+				"formulahendry.auto-close-tag",
+				"formulahendry.auto-rename-tag",
+				"zuoez02.tslint-snippets",
+				"christian-kohler.path-intellisense",
+				"syler.sass-indented",
+				"sibiraj-s.vscode-scss-formatter"
+				// "prograhammer.tslint-vue"
 			]
 		}
-	},
-	
+	}
+
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [5000],
 
-	// Use 'portsAttributes' to set default properties for specific forwarded ports. 
+	// Use 'portsAttributes' to set default properties for specific forwarded ports.
 	// More info: https://containers.dev/implementors/json_reference/#port-attributes
 	// "portsAttributes": {
 	// 	"9000": {
